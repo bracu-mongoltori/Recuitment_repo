@@ -17,7 +17,7 @@ cd Recuitment_repo
 ```
 
 ### 3️⃣ Create a New Folder
-Inside the cloned repository, create a new folder named after you.
+Inside the cloned repository, create a new folder named after you(Include your name and Id).
 
 - Use lowercase letters
 - Use hyphens (-) instead of spaces
@@ -32,7 +32,7 @@ Place all your work, including code, reports, and documentation, inside your fol
 
 ✅ **Recommended folder structure:**
 ```
-john-doe/
+Muztahid-noor-nafis-2xxxxxxx/
 ├── task1/
 │   └── solution.py
 ├── task2/
@@ -43,7 +43,7 @@ john-doe/
 ### 5️⃣ Commit and Push Changes
 ```bash
 git add .
-git commit -m "Add task submission for John Doe"
+git commit -m "Add task submission for Muztahid-noor-nafis-2xxxxxxx"
 git push origin main
 ```
 
@@ -58,11 +58,11 @@ git push origin main
 ```
 Recuitment_repo/
 ├── README.md
-├── john-doe/
+├── Muztahid-noor-nafis-2xxxxxxx/
 │   ├── task1/
 │   ├── task2/
 │   └── README.md
-├── jane-smith/
+├── Dipanjan-bhoumik-2xxxxxxx/
 │   └── ...
 └── ...
 ```
