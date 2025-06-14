@@ -12,8 +12,8 @@ Click the `Fork` button in the top-right corner of this page to create a copy of
 
 ### 2️⃣ Clone Your Fork
 ```bash
-git clone https://github.com/<your-username>/mt11-recruitment-submissions.git
-cd mt11-recruitment-submissions
+git clone https://github.com/bracu-mongoltori/Recuitment_repo.git
+cd Recuitment_repo
 ```
 
 ### 3️⃣ Create a New Folder
@@ -56,7 +56,7 @@ git push origin main
 
 ## 📦 Example Directory Layout
 ```
-mt11-recruitment-submissions/
+Recuitment_repo/
 ├── README.md
 ├── john-doe/
 │   ├── task1/
