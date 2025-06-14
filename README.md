@@ -1,10 +1,10 @@
 # 📁 MT11 Recruitment Task Submissions
 Welcome to the **MT11 recruitment task submission repository**. This repository is temporary and will be used only for collecting task submissions from applicants.
-
+#⚠️ If you encounter any issues or are unsure about anything, please reach out to us so we can assist you.
 ---
 
 ## 🚀 Submission Guidelines
-Please **follow the instructions below carefully** to ensure your submission is accepted.
+Please follow the instructions below carefully to make sure your submission is accepted.
 
 ### 1️⃣ Fork this Repository
 Click the `Fork` button in the top-right corner of this page to create a copy of this repository under your own GitHub account.
@@ -27,7 +27,7 @@ john-doe/
 ```
 
 ### 4️⃣ Add Your Task Files
-Place all your work, including code, reports, and documentation, inside your personal folder.
+Place all your work, including code, reports, and documentation, inside your folder.
 
 ✅ **Recommended folder structure:**
 ```
