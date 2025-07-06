@@ -12,10 +12,9 @@ Click the `Fork` button in the top-right corner of this page to create a copy of
 
 ### 2️⃣ Clone Your Fork
 ```bash
-git clone https://github.com/bracu-mongoltori/Recuitment_repo.git
+git clone https://github.com/your_username/Recuitment_repo.git
 cd Recuitment_repo
 ```
-
 ### 3️⃣ Create a New Folder
 Inside the cloned repository, create a new folder named after you(Include your name and Id).
 
