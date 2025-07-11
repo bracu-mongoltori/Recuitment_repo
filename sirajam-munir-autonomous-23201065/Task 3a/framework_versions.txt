@@ -1,0 +1,5 @@
+Framework and Library Versions Used:
+
+Python: 3.11.8
+ultralytics(YOLOv8): 8.3.162 
+
