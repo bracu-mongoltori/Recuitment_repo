@@ -1,0 +1,5 @@
+train: E:/Task 3A/dataset/bottle/train/images
+val: E:/Task 3A/dataset/Plastic Bottle Image Dataset/valid/images
+
+nc: 1               # number of classes
+names: ['bottle']   # list of class names
