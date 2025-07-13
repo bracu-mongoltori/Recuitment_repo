@@ -9,7 +9,9 @@ Demonstration video : https://drive.google.com/file/d/1RA1LSaSnBDowe-eX10Sy_rbYI
 
 
     colcon build
+    
     source /opt/ros/humble/setup.bash
+
     source install/setup.bash
 
 
@@ -23,7 +25,9 @@ Demonstration video : https://drive.google.com/file/d/1RA1LSaSnBDowe-eX10Sy_rbYI
     in a new terminal--
 
     cd ~/ros2_ws
+
     source install/setup.bash
+
     ros2 run turtlesim turtlesim_node
 
 5. turn the pen off or on:
@@ -31,6 +35,7 @@ Demonstration video : https://drive.google.com/file/d/1RA1LSaSnBDowe-eX10Sy_rbYI
     In a new terminal--
     
     cd ~/ros2_ws
+
     source install/setup.bash
 
     ros2 service call /toggle_trace std_srvs/srv/SetBool "{data: false}"  (PEN OFF)
