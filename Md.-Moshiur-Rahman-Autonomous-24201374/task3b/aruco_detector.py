@@ -1,35 +1,55 @@
 import cv2
 import sys
+import numpy as np 
 
-def detect_aruco_markers(image_path):
-
-    image = cv2.imread(image_path)
-    if image is None:
-        print(f"Image not found: {image_path}")
-        return
-
-    
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-
-    
+def detect_aruco_markers_webcam():
+   
     aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_50)
     parameters = cv2.aruco.DetectorParameters()
+    
+   
+    parameters.adaptiveThreshConstant = 7 
+    
     detector = cv2.aruco.ArucoDetector(aruco_dict, parameters)
 
     
-    corners, ids, _ = detector.detectMarkers(gray)
+    cap = cv2.VideoCapture(0) 
 
-    if ids is not None:
-        print(f"Detected marker IDs: {ids.flatten()}")
+    if not cap.isOpened():
+        print("Error: Could not open webcam. Make sure it's connected and not in use by another application.")
+        return
+
+    print("Press 'q' to quit.")
+
+    while True:
         
-        cv2.aruco.drawDetectedMarkers(image, corners, ids)
-    else:
-        print("No markers detected")
+        ret, frame = cap.read()
 
+        if not ret:
+            print("Error: Could not read frame from webcam. Exiting...")
+            break
 
-    cv2.imshow("Detected ArUco Markers", image)
-    cv2.waitKey(0)
+       
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+        
+        corners, ids, _ = detector.detectMarkers(gray)
+
+        
+        if ids is not None:
+            
+            cv2.aruco.drawDetectedMarkers(frame, corners, ids)
+       
+        cv2.imshow("Live ArUco Marker Detection", frame)
+
+    
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+
+   
+    cap.release()
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    detect_aruco_markers(sys.argv[1])
+    
+    detect_aruco_markers_webcam()
