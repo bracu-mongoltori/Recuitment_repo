@@ -1,5 +1,0 @@
-  File "/home/hp/ros2_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control/figure8_driver.py", line 5
-    from rclpy.node import Node+
-                               ^
-SyntaxError: invalid syntax
-

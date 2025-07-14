@@ -1,5 +1,0 @@
-train: final_dataset/images/train
-val: final_dataset/images/val
-
-names:
-  0: bottle
