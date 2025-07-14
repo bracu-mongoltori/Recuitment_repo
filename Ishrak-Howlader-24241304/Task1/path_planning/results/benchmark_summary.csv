@@ -1,0 +1,3 @@
+algorithm,avg_runtime_ms,avg_path_len,success_rate_%
+astar_manhattan,0.10933333333333334,18.666666666666668,100.0
+dijkstra,0.13533333333333333,18.666666666666668,100.0

@@ -1,0 +1,37 @@
+[0.449s] Invoking command in '/home/hp/turtle_ws/src/turtle_control': PYTHONPATH=/home/hp/turtle_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hp/turtle_ws/install/turtle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/hp/turtle_ws/build/turtle_control/build install --record /home/hp/turtle_ws/build/turtle_control/install.log --single-version-externally-managed install_data
+[0.619s] running egg_info
+[0.619s] creating ../../build/turtle_control/turtle_control.egg-info
+[0.619s] writing ../../build/turtle_control/turtle_control.egg-info/PKG-INFO
+[0.619s] writing dependency_links to ../../build/turtle_control/turtle_control.egg-info/dependency_links.txt
+[0.620s] writing entry points to ../../build/turtle_control/turtle_control.egg-info/entry_points.txt
+[0.620s] writing requirements to ../../build/turtle_control/turtle_control.egg-info/requires.txt
+[0.620s] writing top-level names to ../../build/turtle_control/turtle_control.egg-info/top_level.txt
+[0.620s] writing manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[0.621s] reading manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[0.621s] writing manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[0.622s] running build
+[0.622s] running build_py
+[0.622s] creating /home/hp/turtle_ws/build/turtle_control/build
+[0.622s] creating /home/hp/turtle_ws/build/turtle_control/build/lib
+[0.622s] creating /home/hp/turtle_ws/build/turtle_control/build/lib/turtle_control
+[0.622s] copying turtle_control/__init__.py -> /home/hp/turtle_ws/build/turtle_control/build/lib/turtle_control
+[0.622s] copying turtle_control/turtle_controller.py -> /home/hp/turtle_ws/build/turtle_control/build/lib/turtle_control
+[0.622s] running install
+[0.622s] running install_lib
+[0.623s] creating /home/hp/turtle_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control
+[0.623s] copying /home/hp/turtle_ws/build/turtle_control/build/lib/turtle_control/__init__.py -> /home/hp/turtle_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control
+[0.623s] copying /home/hp/turtle_ws/build/turtle_control/build/lib/turtle_control/turtle_controller.py -> /home/hp/turtle_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control
+[0.623s] byte-compiling /home/hp/turtle_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control/__init__.py to __init__.cpython-310.pyc
+[0.623s] byte-compiling /home/hp/turtle_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.624s] running install_data
+[0.624s] creating /home/hp/turtle_ws/install/turtle_control/share/ament_index
+[0.624s] creating /home/hp/turtle_ws/install/turtle_control/share/ament_index/resource_index
+[0.624s] creating /home/hp/turtle_ws/install/turtle_control/share/ament_index/resource_index/packages
+[0.624s] copying resource/turtle_control -> /home/hp/turtle_ws/install/turtle_control/share/ament_index/resource_index/packages
+[0.624s] copying package.xml -> /home/hp/turtle_ws/install/turtle_control/share/turtle_control
+[0.624s] running install_egg_info
+[0.625s] Copying ../../build/turtle_control/turtle_control.egg-info to /home/hp/turtle_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control-0.0.0-py3.10.egg-info
+[0.626s] running install_scripts
+[0.641s] Installing turtle_controller script to /home/hp/turtle_ws/install/turtle_control/lib/turtle_control
+[0.641s] writing list of installed files to '/home/hp/turtle_ws/build/turtle_control/install.log'
+[0.656s] Invoked command in '/home/hp/turtle_ws/src/turtle_control' returned '0': PYTHONPATH=/home/hp/turtle_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hp/turtle_ws/install/turtle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/hp/turtle_ws/build/turtle_control/build install --record /home/hp/turtle_ws/build/turtle_control/install.log --single-version-externally-managed install_data
