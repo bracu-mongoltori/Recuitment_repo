@@ -1,8 +1,0 @@
-train: E:/Task03_a/dataset/bottle/images  # Path to training images folder
-val: E:/Task03_a/dataset/Plastic Bottle Image Dataset/test/images  # Path to validation images folder
-
-# Number of classes (here, only 1 class: 'bottle')
-nc: 1
-
-# List of class names — order matters and must match the label files
-names: ['bottle']

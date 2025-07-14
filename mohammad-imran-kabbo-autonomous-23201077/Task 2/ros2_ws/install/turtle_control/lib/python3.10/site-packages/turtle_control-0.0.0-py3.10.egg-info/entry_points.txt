@@ -1,4 +1,0 @@
-[console_scripts]
-figure8_driver = turtle_control.figure8_driver:main
-trace_toggle = turtle_control.trace_toggle:main
-
