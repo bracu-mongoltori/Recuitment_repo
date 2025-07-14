@@ -1,0 +1,28 @@
+[1.152s] Invoking command in '/home/himel/ros2_ws/src/turtle_control': DEBUGINFOD_URLS=https://debuginfod.archlinux.org LESS= -R -X -F PYTHONPATH=/home/himel/ros2_ws/build/turtle_control/prefix_override:/usr/lib/python3.13/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/himel/ros2_ws/install/turtle_control/lib/python3.13/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/himel/ros2_ws/build/turtle_control/build install --record /home/himel/ros2_ws/build/turtle_control/install.log --single-version-externally-managed install_data
+[1.312s] /usr/lib/python3.13/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.312s]   warnings.warn(msg)
+[1.562s] running egg_info
+[1.591s] writing ../../build/turtle_control/turtle_control.egg-info/PKG-INFO
+[1.591s] writing dependency_links to ../../build/turtle_control/turtle_control.egg-info/dependency_links.txt
+[1.591s] writing entry points to ../../build/turtle_control/turtle_control.egg-info/entry_points.txt
+[1.591s] writing requirements to ../../build/turtle_control/turtle_control.egg-info/requires.txt
+[1.591s] writing top-level names to ../../build/turtle_control/turtle_control.egg-info/top_level.txt
+[1.710s] [2;36m[07/12/25 19:01:19][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending there aren't any                                                           ]8;id=986390;file:///usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=988712;file:///usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
+[1.837s] reading manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[1.838s] writing manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[1.838s] running build
+[1.838s] running build_py
+[1.838s] copying turtle_control/__init__.py -> /home/himel/ros2_ws/build/turtle_control/build/lib/turtle_control
+[1.838s] running install
+[1.843s] running install_lib
+[1.871s] running install_data
+[1.871s] copying resource/turtle_control -> /home/himel/ros2_ws/install/turtle_control/share/ament_index/resource_index/packages
+[1.871s] copying package.xml -> /home/himel/ros2_ws/install/turtle_control/share/turtle_control
+[1.871s] running install_egg_info
+[1.900s] removing '/home/himel/ros2_ws/install/turtle_control/lib/python3.13/site-packages/turtle_control-0.0.0-py3.13.egg-info' (and everything under it)
+[1.900s] Copying ../../build/turtle_control/turtle_control.egg-info to /home/himel/ros2_ws/install/turtle_control/lib/python3.13/site-packages/turtle_control-0.0.0-py3.13.egg-info
+[1.900s] running install_scripts
+[1.959s] Installing figure8_driver script to /home/himel/ros2_ws/install/turtle_control/lib/turtle_control
+[1.959s] Installing trace_toggle_service script to /home/himel/ros2_ws/install/turtle_control/lib/turtle_control
+[1.959s] writing list of installed files to '/home/himel/ros2_ws/build/turtle_control/install.log'
+[1.997s] Invoked command in '/home/himel/ros2_ws/src/turtle_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org LESS= -R -X -F PYTHONPATH=/home/himel/ros2_ws/build/turtle_control/prefix_override:/usr/lib/python3.13/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/himel/ros2_ws/install/turtle_control/lib/python3.13/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/himel/ros2_ws/build/turtle_control/build install --record /home/himel/ros2_ws/build/turtle_control/install.log --single-version-externally-managed install_data
