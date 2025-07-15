@@ -1,0 +1,26 @@
+[0.483s] Invoking command in '/home/sameer/turtle_ws/src/turtle_control': PYTHONPATH=/home/sameer/turtle_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sameer/turtle_ws/install/turtle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/sameer/turtle_ws/build/turtle_control/build install --record /home/sameer/turtle_ws/build/turtle_control/install.log --single-version-externally-managed install_data
+[0.603s] /home/sameer/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.603s]   warnings.warn(msg)
+[0.677s] running egg_info
+[0.689s] writing ../../build/turtle_control/turtle_control.egg-info/PKG-INFO
+[0.689s] writing dependency_links to ../../build/turtle_control/turtle_control.egg-info/dependency_links.txt
+[0.690s] writing entry points to ../../build/turtle_control/turtle_control.egg-info/entry_points.txt
+[0.690s] writing requirements to ../../build/turtle_control/turtle_control.egg-info/requires.txt
+[0.690s] writing top-level names to ../../build/turtle_control/turtle_control.egg-info/top_level.txt
+[0.723s] reading manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[0.724s] writing manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[0.724s] running build
+[0.724s] running build_py
+[0.724s] copying turtle_control/turtle_controller.py -> /home/sameer/turtle_ws/build/turtle_control/build/lib/turtle_control
+[0.724s] running install
+[0.728s] running install_lib
+[0.742s] copying /home/sameer/turtle_ws/build/turtle_control/build/lib/turtle_control/turtle_controller.py -> /home/sameer/turtle_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control
+[0.742s] byte-compiling /home/sameer/turtle_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.743s] running install_data
+[0.743s] running install_egg_info
+[0.756s] removing '/home/sameer/turtle_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.757s] Copying ../../build/turtle_control/turtle_control.egg-info to /home/sameer/turtle_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control-0.0.0-py3.10.egg-info
+[0.757s] running install_scripts
+[0.783s] Installing turtle_controller script to /home/sameer/turtle_ws/install/turtle_control/lib/turtle_control
+[0.783s] writing list of installed files to '/home/sameer/turtle_ws/build/turtle_control/install.log'
+[0.800s] Invoked command in '/home/sameer/turtle_ws/src/turtle_control' returned '0': PYTHONPATH=/home/sameer/turtle_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sameer/turtle_ws/install/turtle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/sameer/turtle_ws/build/turtle_control/build install --record /home/sameer/turtle_ws/build/turtle_control/install.log --single-version-externally-managed install_data
