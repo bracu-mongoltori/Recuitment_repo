@@ -1,0 +1,8 @@
+Map             Algorithm  Avg Time (ms)   Avg Path Len    Success Rate (%)  
+---------------------------------------------------------------------------
+maps/map4.csv   dijkstra   0.01            0.00            0.0               
+maps/map4.csv   astar      0.01            0.00            0.0               
+maps/map2.csv   dijkstra   0.58            29.00           100.0             
+maps/map2.csv   astar      0.56            29.00           100.0             
+maps/map3.csv   dijkstra   0.89            41.00           100.0             
+maps/map3.csv   astar      0.56            41.00           100.0   
