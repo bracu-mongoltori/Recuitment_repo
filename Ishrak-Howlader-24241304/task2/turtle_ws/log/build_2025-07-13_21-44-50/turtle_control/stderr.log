@@ -1,0 +1,7 @@
+/home/sameer/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+  File "/home/sameer/turtle_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control/turtle_controller.py", line 70
+    def l
+         ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,3 @@
+/usr/lib/python3.13/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+[2;36m[07/12/25 18:54:02][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending there aren't any                                                           ]8;id=866574;file:///usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=448808;file:///usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/git.py#26\[2m26[0m]8;;\
