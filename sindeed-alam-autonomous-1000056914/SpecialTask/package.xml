@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sindeed_alam_autonomous</name>
+  <version>0.1.0</version>
+  <description>Autonomous path planning with Dijkstra and A*</description>
+  <maintainer email="you@example.com">Sindeed Ibti</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>matplotlib</exec_depend>
+  <exec_depend>numpy</exec_depend>
+</package>
