@@ -1,0 +1,9 @@
+[console_scripts]
+draw_circle = my_robot_controller.draw_circle:main
+draw_eight = my_robot_controller.draw_eight:main
+figure8_driver = my_robot_controller.figure8_driver:main
+pose_subscriber = my_robot_controller.pose_subscriber:main
+test_node = my_robot_controller.my_first_node:main
+trace_toggle = my_robot_controller.toggle_trace:main
+turtle_controller = my_robot_controller.turtle_controller:main
+

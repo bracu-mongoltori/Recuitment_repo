@@ -1,0 +1,30 @@
+[1.730s] Invoking command in '/mnt/d/ros2_worksp/build/my_robot_controller': PYTHONPATH=/mnt/d/ros2_worksp/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/d/ros2_worksp/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/d/ros2_worksp/build/my_robot_controller/build --no-deps symlink_data
+[2.368s] running develop
+[2.590s] running egg_info
+[2.591s] creating my_robot_controller.egg-info
+[2.593s] writing my_robot_controller.egg-info/PKG-INFO
+[2.598s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[2.601s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[2.603s] writing requirements to my_robot_controller.egg-info/requires.txt
+[2.606s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[2.609s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.647s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.683s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.694s] running build_ext
+[2.695s] Creating /mnt/d/ros2_worksp/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[2.711s] Installing draw_circle script to /mnt/d/ros2_worksp/install/my_robot_controller/lib/my_robot_controller
+[2.721s] Installing draw_eight script to /mnt/d/ros2_worksp/install/my_robot_controller/lib/my_robot_controller
+[2.731s] Installing figure8_driver script to /mnt/d/ros2_worksp/install/my_robot_controller/lib/my_robot_controller
+[2.743s] Installing pose_subscriber script to /mnt/d/ros2_worksp/install/my_robot_controller/lib/my_robot_controller
+[2.754s] Installing test_node script to /mnt/d/ros2_worksp/install/my_robot_controller/lib/my_robot_controller
+[2.764s] Installing trace_toggle script to /mnt/d/ros2_worksp/install/my_robot_controller/lib/my_robot_controller
+[2.775s] Installing turtle_controller script to /mnt/d/ros2_worksp/install/my_robot_controller/lib/my_robot_controller
+[2.788s] 
+[2.788s] Installed /mnt/d/ros2_worksp/build/my_robot_controller
+[2.790s] running symlink_data
+[2.795s] creating /mnt/d/ros2_worksp/install/my_robot_controller/share/ament_index
+[2.797s] creating /mnt/d/ros2_worksp/install/my_robot_controller/share/ament_index/resource_index
+[2.798s] creating /mnt/d/ros2_worksp/install/my_robot_controller/share/ament_index/resource_index/packages
+[2.808s] symbolically linking /mnt/d/ros2_worksp/build/my_robot_controller/resource/my_robot_controller -> /mnt/d/ros2_worksp/install/my_robot_controller/share/ament_index/resource_index/packages
+[2.819s] symbolically linking /mnt/d/ros2_worksp/build/my_robot_controller/package.xml -> /mnt/d/ros2_worksp/install/my_robot_controller/share/my_robot_controller
+[2.849s] Invoked command in '/mnt/d/ros2_worksp/build/my_robot_controller' returned '0': PYTHONPATH=/mnt/d/ros2_worksp/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/d/ros2_worksp/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/d/ros2_worksp/build/my_robot_controller/build --no-deps symlink_data
