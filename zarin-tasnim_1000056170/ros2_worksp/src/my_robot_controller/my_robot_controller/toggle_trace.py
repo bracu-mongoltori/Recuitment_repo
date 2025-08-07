@@ -38,7 +38,6 @@ class TraceToggleService(Node):
 
         future = self.pen_client.call_async(pen_req)
 
-        # ✅ Non-blocking loop
         timeout_time = self.get_clock().now().seconds_nanoseconds()[0] + 2.0
         rclpy.spin_until_future_complete(self, future, timeout_sec=2.0)
 
@@ -49,7 +48,6 @@ class TraceToggleService(Node):
                 response.message = "SetPen service timeout"
                 return response
 
-        # Check if it worked
         if future.result() is not None:
             response.success = False
             response.message = "SetPen service call raised an exception"
